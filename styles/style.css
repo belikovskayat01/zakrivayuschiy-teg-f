@@ -137,6 +137,7 @@
 
 .card__icon-button:focus-visible {
   border-color: var(--accent-color);
+  margin-right: 8px;
 }
 
 .button__text {
@@ -151,6 +152,10 @@
   padding: 10px 0;
   background-color: transparent;
   overflow: hidden;
+}
+
+.card__like-button:focus-visible {
+   margin-left: 8px;
 }
 
 .button {
@@ -288,8 +293,18 @@
     height: 371px;
   }
 
+  .buttons {
+     margin-top: 7px;
+  }
+
+  .card__like-button {
+  padding: 10px 0 5px 0;
+   
+  }
+
   .save-to-memory__button {
     flex-direction: column;
+    margin-top: 48px;
   }
 
   .save-to-memory {
@@ -299,7 +314,7 @@
     padding: 15px 2px;
   }
 
-  .floppy-icon {
+ .save-to-memory .button__icon {
     width: 28px;
     height: 28px;
   }
